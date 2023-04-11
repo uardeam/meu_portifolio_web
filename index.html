@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Folhas de estilo -->
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Ícone da guia -->
+  <link rel="shortcut icon" href="./dist/images/joao-favicon.png" type="image/x-icon">
+
+  <!-- Fontes do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <title>Portifólio</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Cabeçalho -->
+    <header class="header">
+      <img class="header__logo" src="./dist/images/joao-logo.png" alt="LOGO">
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#tech">Tecnlogias</a></li>
+          <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#Sobre">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home com descrição -->
+    <section class="home" id="inicio">
+      <div class="home__content">
+        <h1 class="home__content__branding">
+          <div class="home__content__branding__text-1">Olá, Eu sou João Pedro</div>
+          <div class="home__content__branding__text-2">- Desenvolvedor <span class="dynamic-work"></span> 🎓 - </div>
+          <div class="home__content__branding__text-3">Estou em processo de aprendizado e em constante evolução, sempre
+            me atualizando para desenvolver projetos de alta qualidade. Possuo conhecimento em diversas tecnologias,
+            tanto
+            no front-end como no back-end, e estou sempre em busca de novas habilidades para aprimorar meu trabalho.
+            Procuro trabalhar em um ambiente desafiador e colaborativo, onde possa aprender com os melhores
+            profissionais
+            e contribuir para a construção de soluções inovadoras e impactantes. Se você está em busca de um
+            desenvolvedor
+            full stack dedicado a evoluir junto com a empresa, criativo e comprometido com o sucesso do projeto, entre
+            em
+            contato comigo. Estou pronto para novos desafios!!. 🚀
+          </div>
+        </h1>
+
+        <!-- Links para contatos -->
+        <div class="home__content__branding__social">
+          <a href="mailto:11joao44@gmail.com" target="_blank"><img src="https://img.icons8.com/color/40/null/gmail-new.png" alt="E-mail"></a>
+          <a href="https://github.com/11joao44" target="_blank"><img src="https://img.icons8.com/sf-ultralight/40/ffffff/github.png" alt="Repositório Github" /></a>
+          <a href="https://www.linkedin.com/in/joão-dev/" target="_blank"><img src="https://img.icons8.com/color/40/null/linkedin.png" alt="Perfil Linkedin" /></a>
+          <a href="https://api.whatsapp.com/send?phone=5565981126587" target="_blank"><img src="https://img.icons8.com/color/40/null/whatsapp--v1.png" alt="Whatsapp Contato" /></a>
+          <a href="/dist/file/Curriculo Desenvolvedor.pdf" class="home__content__branding__social__download" download>Baixar CV </a>
+        </div>
+      </div>
+
+      <!-- Card de perfil -->
+      <div class="home__profile">
+        <div class="home__profile__card">
+          <div class="home__profile__card__front">
+            <img src="./dist/images/photo.jpg" alt="">
+          </div>
+          <div class="home__profile__card__back">
+            <div class="home__profile__card__back__photo"></div>
+            <!-- Seção de descrição no verso do cartão -->
+            <div class="home__profile__card__back__description">
+              🎓🧠🚀
+              <h2>João Pedro Inácio Ferreira</h2>
+              <h1>Desenvolvedor <span class="dynamic-work"></span></h1>
+              <p>
+                🧠Skills: HTML5 | CSS3 | JavaScript ES6+ | Vue.js | Node.js | Git | React | Bootstrap | Jquery |
+                SMACSS e BEM |
+                Ajax | TypeScript | Orientação a Objetos com JavaScript | SASS | LESS | Gulp | Grunt | Parcel |
+                Babel .
+              </p>
+              <br>
+              <p>
+                📊 Cursando Desenvolvedor Full Stack Python na EBAC, me especializando na área de desenvolvimento
+                web e
+                habilidades em front-end e back-end.
+              </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Tecnologias que utilizo -->
+  <section class="tech" id="tech">
+    <div class="bg-color">
+      <p class="tx-start">
+        Aqui você encontrará informações sobre as tecnologias que eu domino. <br>
+        Clique nas imagens para saber mais sobre minhas habilidades em cada uma delas.
+      </p>
+    </div>
+    <div class="tech">
+      <div div class="tech__description">
+
+        <ul class="tech__description__list">
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #ff6b2f, #ff5719, #ff4f15, #ff3b00, #e63500, #ff3b00, #cc3100)" data-src0="./dist/images/HTML5.png" data-src1="./dist/images/HTML5A.png" data-src2="./dist/images/HTML5B.png" data-src3="./dist/images/HTML5C.png" data-src4="./dist/images/HTML5D.png" data-src5="./dist/images/HTML5E.png" data-text="Minha experiência em HTML inclui a criação de páginas estáticas e dinâmicas, além de habilidades em otimização para motores de busca e acessibilidade com uma boa semântica. Também tenho habilidade em integrar HTML com outras tecnologias web, como CSS e JavaScript e seus frameworks e bibliotecas, para criar sites atraentes e interativos. Estou sempre em busca de aprender novas técnicas e ferramentas para aprimorar minhas habilidades em HTML e entregar soluções web de alta qualidade."> <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/53/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #0077c2, #0d6ebc, #1a64b5, #1a64f5, #265bae, #265bae, #3151a8)" data-src0="./dist/images/CSS3.png" data-src1="./dist/images/CSS3A.png" data-src2="./dist/images/CSS3B.png" data-src3="./dist/images/CSS3C.png" data-src4="./dist/images/CSS3D.png" data-src5="./dist/images/CSS3E.png" data-text="Minha experiência e minha curiosidade em CSS. Recentemente, me ajudou a melhorar minhas habilidades em entender com funciona essa linguagem. Consigo implementar estrutura de layout responsivo e bem organizada utilizando esses recursos que aprendi. Além disso, eu gosto de explorar diferentes técnicas para melhorar a aparência e a usabilidade do meu código CSS. Algumas das minhas técnicas favoritas incluem a utilização de variáveis CSS e a criação de animações simples, para tornar a experiência do usuário mais interativa e envolvente.."> <img src="https://img.icons8.com/fluency/66/null/css3.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #f7df1e, #f4d71c, #f0cf1a, #ecc716, #e8bf12, #e4b70f, #e1af0d)" data-src0="./dist/images/JS.png" data-src1="./dist/images/JSA.png" data-src2="./dist/images/JSB.png" data-src3="./dist/images/JSC.png" data-src4="./dist/images/JSD.png" data-src5="./dist/images/JSE.png" data-text="Meu conhecimento e experiência em JavaScript e diversos frameworks, como Swiper, Jquery, Bootstrap, Gulp, entre outros, sou capaz de criar sites e aplicações web interativas e eficientes, que proporcionam uma ótima experiência ao usuário. Além disso, meu código é estruturado de forma clara e organizada, como evidenciado nesse portfolio, adição de classe em um card e definição de cor de fundo e animação de ícones. Também utilizei o framework Swiper para criar esse carrossel abaixo. Posso criar projetos web dinâmicos para empresas e clientes em geral."> <img src="https://img.icons8.com/color/66/null/javascript--v1.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #069253, #10ba6d, #0fc070, #0bbf6e, #02bb68, #02db79, #009e57)" data-src0="./dist/images/VUE.png" data-src1="./dist/images/VUEA.png" data-src2="./dist/images/VUEB.png" data-src3="./dist/images/VUEC.png" data-src4="./dist/images/VUED.png" data-src5="./dist/images/VUEE.png" data-text="Estou aprendendo Vue.js, uma das principais bibliotecas JavaScript para a construção de interfaces de usuário interativas e dinâmicas. Minha experiência com essa tecnologia me permite criar aplicações incríveis e escaláveis, desde pequenos projetos até sistemas complexos. Programo interfaces de usuário responsivas e reativas, capazes de interagir com o usuário de maneira fluida e intuitiva. Combinado com outras tecnologias, como Vuex e Vue Route, crio componentes personalizados e reutilizáveis e integrar tecnologias, como APIs RESTful."><img src="https://img.icons8.com/color/66/null/vue-js.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #D65d98, #d65c90, #bf4b89, #a93a81, #922a7a, #911f70, #800165)" data-src0="./dist/images/SASS.png" data-src1="./dist/images/SASSA.png" data-src2="./dist/images/SASSB.png" data-src3="./dist/images/SASSC.png" data-src4="./dist/images/SASSD.png" data-src5="./dist/images/SASSE.png" data-text="Minhas habilidade em SASS me permite criar estilos mais complexos e visualmente atraentes para os projetos em que trabalho. Tenho conhecimentos nas metodologias BEM e SMACSS e através do BEM, eu divido meus componentes em blocos, elementos e modificadores, o que ajuda a tornar o código mais legível e fácil de entender. Ao longo do meu tempo de estudo e prática em SASS, aprendi a como escrever um código organizado e limpo para tornar o desenvolvimento mais eficiente, Além disso eu uso SASS para criar uma estilização, como animações e transições "><img src="https://img.icons8.com/color/65/null/sass.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #61dafb, #58c9ef, #4cb7e2, #3e9fc8, #3282a1, #2b6880, #245660)" data-src0="./dist/images/REACT.png" data-src1="./dist/images/REACTA.png" data-src2="./dist/images/REACTB.png" data-src3="./dist/images/REACTC.png" data-src4="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-src5="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-text="Recentemente comecei a estudar React e já vejo as possibilidades que essa tecnologia pode oferecer para o desenvolvimento de aplicações web mais dinâmicas e responsivas. Com o React, percebi que é possível desenvolver aplicações mais escaláveis e com melhor desempenho, devido à forma como a biblioteca renderiza e atualiza somente as partes da interface que foram alteradas. No geral, estou muito interessado em continuar explorando e aprofundando meu conhecimento em React e em outras tecnologias do ecossistema."><img src="https://img.icons8.com/color/60/61DAFB/react-native.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #e62727, #CF4647, #c13333, #CF4647, #fb4040, #CF4647, #e62727)" data-src0="./dist/images/GULP.png" data-src1="./dist/images/GULPA.png" data-src2="./dist/images/GULPB.png" data-src3="./dist/images/GULPC.png" data-src4="./dist/images/GULPD.png" data-src5="./dist/images/GULPE.png" data-text="Como desenvolvedor para min ter conhecimento em Gulp é essencial, utilizo essa ferramenta para automatizar tarefas em meus projetos, como compressão de arquivos JavaScript, imagens e compilação de arquivos SASS em CSS. A flexibilidade do Gulp permite criar tarefas personalizadas e executá-las sequencial ou simultaneamente, otimizando o processo de criação do projeto e aumentando a eficiência. Eu uso plugins como gulp-uglify para comprimir e ofuscar arquivos JS, gulp-imagemin para comprimir imagens e gulp-sass para compilar arquivos SASS em CSS."><img src="https://img.icons8.com/windows/64/CF4647/gulp.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #007acc, #0078bf, #006cb2, #00589c, #00589c, #003b78, #003555)" data-src0="./dist/images/TS.png" data-src1="./dist/images/TSA.png" data-src2="./dist/images/TSB.png" data-src3="./dist/images/TSC.png" data-src4="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-src5="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-text="Tenho conhece breve ainda em TypeScript mas já fiquei impressionado com a facilidade que essa tecnologia oferece para desenvolver códigos. Ele adiciona recursos de tipagem estática, interfaces, classes e outras funcionalidades ao JavaScript, tornando-o mais robusto e seguro para projetos de grande escala. Ainda há muito a aprender sobre o TypeScript, como o uso de interfaces e classes para criar tipos personalizados e a implementação de decoradores para estender a funcionalidade do código."><img class="ts-logo" src="./dist/images/Typescript_logo.png" /></li>
+          <li class="tech__description__list__item" value="linear-gradient(45deg, #3b9038, #359b32, #1ca41e, #0faa14, #0faa14, #249920, #3b9038)" data-src0="./dist/images/NODE.png" data-src1="./dist/images/NODEA.png" data-src2="./dist/images/NODEB.png" data-src3="./dist/images/NODEC.png" data-src4="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-src5="https://media.tenor.com/iyJ0r-hK4gYAAAAC/em-breve-glitch.gif" data-text="Eu tenho experiência em trabalhar com Node.js em projetos básicos e intermediários. Eu sei como criar e executar scripts em Node.js, gerenciar dependências com o npm e outras ferramentas, e utilizar bibliotecas de terceiros e módulos do Node.js para adicionar funcionalidades aos meus projetos. Usei para tarefas de construção e gerenciamento de dependências com o Gulp e outras ferramentas, bem como em lidar com erros e depuração de aplicativos Node.js. Também tenho experiência em usar o Babel em conjunto com o Node.js para transpilar código ES6+ para ES5."><img class="node-logo" src="./dist/images/node_js.png" /></li>
+        </ul>
+
+        <p class="tech__description__text"></p>
+
+        <!-- Carrousel dos Códigos -->
+        <div class="carrousel" id="carousel">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img id="slide0" src="" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img id="slide1" src="" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img id="slide2" src="" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img id="slide3" src="" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img id="slide4" src="" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img id="slide5" src="" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos Realizados -->
+  <section id="Projetos">
+
+    <div class="work">
+
+      <div class="work__filters">
+        <span class="work__filters__item">Todos</span>
+        <span class="work__filters__item">Front-end</span>
+        <span class="work__filters__item">Design</span>
+      </div>
+
+      <div class="work__container">
+
+
+        <!-- Landing page Film -->
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/landing_page_film.png" alt="Landing page Gato de botas 2">
+          <div class="work__card__description">
+            <img src="./dist/images/landing_page_film.png" alt="Landing page Gato de botas 2">
+            <h3 class="work__card__description__title">Landing page: <span>Gato de Botas 2</span></h3>
+            <p class="work__card__description__text">
+              Neste projeto, desenvolvi uma landing page para um filme usando tecnologias como HTML, SASS, Gulp e
+              JavaScript. Utilizei a metodologia BEM (Block Element Modifier) para escrever CSS de forma organizada e
+              escalável, o que permitiu que a manutenção do código fosse fácil e rápida.
+
+              A landing page possui um ótimo design com carrossel de imagens, seção de personagens interativa e
+              dinâmica, contendo o trailer do filme e informações extras. Além disso, a página é totalmente responsiva,
+              garantindo que ela seja exibida corretamente em todos os tamanhos de tela.
+
+              Durante o desenvolvimento deste projeto, utilizei habilidades como criatividade, pensamento crítico e
+              resolução de problemas para criar soluções eficazes e eficientes para os desafios que surgiram.
+            </p>
+            <ul class="work__card__description____info">
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>07/02/2023</span></li>
+              <li>Tecnologia - <span><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /><img src="https://img.icons8.com/color/30/null/sass.png" /> <img src="https://img.icons8.com/color/30/null/javascript--v1.png" /> <img src="https://img.icons8.com/windows/30/CF4647/gulp.png" /> <img class="node-logo" src="/dist/images/node_js.png" /></span> </li>
+              <br>
+              <a href="https://landing-page-film.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/Lista_de_tarefa.png" alt="Landing page Lista de tarefa">
+          <div class="work__card__description">
+            <img src="./dist/images/Lista_de_tarefa.png" alt="Landing page Lista de tarefa">
+            <h3>Landing page <span>Lista de tarefas</span></h3>
+            <p>
+              Desenvolvi uma aplicação web de lista de tarefas com JavaScript puro, HTML e CSS, utilizando a metodologia
+              BEM para escrever CSS de forma organizada e escalável. A aplicação permite adicionar, editar e excluir
+              tarefas, além de marcar como concluídas. Também utilizei o Local Storage para armazenar as tarefas e suas
+              informações, permitindo que os dados permaneçam mesmo após a atualização da página. Essa experiência me
+              permitiu aprimorar minhas habilidades em programação orientada a objetos, manipulação de eventos do DOM e
+              uso de recursos de armazenamento local. Confira a aplicação no link acima.
+            </p>
+            <ul>
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>21/01/2023</span></li>
+              <li>Tecnologia - <span> <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /><img src="https://img.icons8.com/fluency/30/null/css3.png" /> <img src="https://img.icons8.com/color/30/null/javascript--v1.png" /> <img src="https://img.icons8.com/ios-filled/30/003b78/jquery.png" /></span></li>
+              <br>
+              <a href="https://lista-de-tarefas-nine.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/clone_disney_plus.png" alt="Landing page Gato de botas 2">
+          <div class="work__card__description">
+            <img src="./dist/images/clone_disney_plus.png" alt="Landing Clone Disney+">
+            <h3>Clone Disney+</h3>
+            <p>
+              Meu projeto de clone da Disney+ que desenvolvi utilizando as tecnologias de HTML, Sass, Gulp e JavaScript.
+              Nesse projeto, tive a oportunidade de aprimorar minhas habilidades em desenvolvimento web, criando uma
+              interface que remete à plataforma da Disney+, com seus principais recursos, como seção de filmes, séries e
+              conteúdos infantis. Utilizei o padrão BEM (Block Element Modifier) para escrever o CSS de forma mais
+              organizada e escalável. Além disso, desenvolvi funções JavaScript para tornar a interface mais interativa
+              e dinâmica, como o carrossel de imagens e a barra de pesquisa. Meu foco principal foi garantir uma ótima
+              experiência do usuário, com design responsivo para dispositivos móveis e desktops. Espero que meu projeto
+              possa impressionar e inspirar outros desenvolvedores, mostrando minhas habilidades em criar interfaces
+              atraentes e funcionais.
+            </p>
+            <ul>
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>01/02/2023</span></li>
+              <li>Tecnologia - <span><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /><img src="https://img.icons8.com/color/30/null/sass.png" /> <img src="https://img.icons8.com/color/30/null/javascript--v1.png" /> <img src="https://img.icons8.com/windows/30/CF4647/gulp.png" /> <img class="node-logo" src="/dist/images/node_js.png" /></span> </li>
+              <br>
+              <a href="https://clone-disney-plus-seven.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/Landing_page_games.png" alt="Landing page Game Store">
+          <div class="work__card__description">
+            <img class="work__card__cover" src="./dist/images/Landing_page_games.png" alt="Landing page Game Store">
+            <h3>Landing page Game Store</h3>
+            <p>
+              A Landing Page da Game Store foi um projeto que desenvolvi utilizando Bootstrap e técnicas de
+              responsividade. A ideia era criar uma página para uma loja virtual de games digitais, com destaque para as
+              principais promoções do momento.
+
+              Para isso, utilizei o carrossel do Bootstrap para criar uma seção de destaque, onde os principais jogos em
+              promoção eram exibidos de forma dinâmica e atraente. Também utilizei técnicas de responsividade para
+              garantir que a página ficasse bem visualizada em diferentes dispositivos, como desktops, tablets e
+              smartphones.
+            </p>
+            <ul>
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>12/01/2023</span></li>
+              <li>Tecnologia - <span><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /><img src="https://img.icons8.com/fluency/30/null/css3.png" /> <img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/30/760ab0/external-Bootstrap-social-media-those-icons-lineal-color-those-icons.png" /></span></li>
+              <br>
+              <a href="https://exercicio-bootstrap-3.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/landing_page_event.png" alt="Landing página de evento">
+          <div class="work__card__description">
+            <img class="work__card__cover" src="./dist/images/landing_page_event.png" alt="Landing página de evento">
+            <h3>Página de evento</h3>
+            <p>
+              Meu projeto é um site de uma página evento chamado. Neste site, utilizei a biblioteca Sharp.js para criar
+              um efeito na seções que exibe os principais imagem e descrição do evento. O Sharp.js é uma biblioteca
+              JavaScript que permite redimensionar imagens de forma rápida e eficiente, o que ajudou a tornar a
+              experiência de visualização das imagens mais suave e agradável.
+              Além disso, também implementei uma contagem regressiva que mostra quanto tempo falta para o evento
+              começar. Isso é feito usando JavaScript para obter a data atual e a data do evento, e depois calcular a
+              diferença entre as duas datas para mostrar a contagem regressiva na página.
+            </p>
+            <ul>
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>08/02/2023</span></li>
+              <li>Tecnologia - <span><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" /><img src="https://img.icons8.com/color/30/null/sass.png" /> <img src="https://img.icons8.com/color/30/null/javascript--v1.png" /> <img class="node-logo" src="./dist/images/node_js.png" /></span> </li>
+              <br>
+              <a href="https://ebac-tech-talks-one.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="work__card">
+          <img class="work__card__cover" src="./dist/images/landing_page_sorteador.png" alt="Landing page Sorteador">
+          <div class="work__card__description">
+            <img class="work__card__cover" src="./dist/images/landing_page_sorteador.png" alt="landing page Sorteador">
+            <h3>Sorteador</h3>
+            <p>
+              Meu projeto é um sorteado de números aleatórios que criei usando Grunt, Less e JavaScript. Na página
+              inicial do site, os usuários podem clicar em um botão que gera um número aleatório. O número é então
+              exibido na tela, logo abaixo do botão, para que o usuário possa vê-lo imediatamente.
+              Para tornar a aparência do site mais agradável e personalizada, utilizei o Grunt e o Less. O Grunt é uma
+              ferramenta de automação de tarefas que me permitiu automatizar processos repetitivos, como a compilação e
+              a minificação de arquivos Less. O Less, por sua vez, é uma linguagem de estilo dinâmica que me permitiu
+              escrever estilos para o site de forma mais eficiente.
+            </p>
+            <ul>
+              <li>Desenvolvimento - <span>Front-end</span></li>
+              <li>Criado em - <span>25/01/2023</span></li>
+              <li>Tecnologia - <span><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/30/null/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-shadow-tal-revivo.png" />{less} <img src="https://img.icons8.com/color/30/null/javascript--v1.png" /> <img src="https://img.icons8.com/windows/30/cc3100/grunt.png" /> <img class="node-logo" src="/dist/images/node_js.png" /></span> </li>
+              <br>
+              <a href="https://sorteador-psi.vercel.app">Acessar</a>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sobre min -->
+  <section id="Sobre">
+    <div class="about">
+      <div class="about__header">
+        <h1>Sobre min</h1>
+        <p>Profissional em desenvolvimento</p>
+        <div>
+          <span></span>
+        </div>
+      </div>
+      <img class="about__photo" src="./dist/images/photo.jpg" alt="Foto de perfil">
+      <div class="about__content">
+        <div class="about__content__text">
+          <h1>Eu sou João Pedro </h1>
+          <p>
+            Olá, meu nome é João Pedro e tenho 22 anos. Sou um ávido consumidor de informações e adoro me manter atualizado 
+            sobre as últimas tendências e novidades em diversas áreas, como tecnologia, filmes, jogos, finanças, ciências e 
+            saúde física e mental. Uma das minhas principais fontes de conteúdo é o YouTube, onde assisto a uma variedade de 
+            vídeos e podcasts, como estudos sobre peças de computador, programas e softwares em geral, resenhas de produtos 
+            recentes, gameplays e reviews de jogos, críticas de filmes do momento, além de vídeos sobre psicologia, 
+            neurociência e curiosidades sobre animes, filmes, séries e jogos.
+          </p>
+          <br>
+          <p>
+            Também sou um grande consumidor de música, com um gosto eclético que varia de músicas internacionais a nacionais, 
+            como rock, eletrônica, sertanejo e rap. Além disso, gosto de me informar sobre história e frequentemente assisto a 
+            vídeos sobre grandes nomes do passado e do presente, como cientistas renomados, empresários bem-sucedidos e grandes 
+            empresas e suas trajetórias.
+          </p>
+          <br>
+          <p>
+            Como profissional de programação, acompanho muitos vídeos relacionados à minha área de atuação, 
+            desde tutoriais de programação e codificação até discussões sobre as últimas tendências em tecnologia. 
+            Considero esse hábito de consumir conteúdo uma grande vantagem, pois me permite estar sempre atualizado 
+            e bem informado em diferentes áreas. Além disso, me ajuda a ser mais criativo e a ter novas ideias para projetos 
+            e iniciativas futuras. Acredito que minha curiosidade e interesse em aprender mais são características 
+            fundamentais para o meu desenvolvimento pessoal e profissional.
+          </p>
+        </div>
+        <div class="about__info">
+          <p><i class="fa-solid fa-calendar-days"></i>Data de Nascismento: 03/07/2000 </p>
+          <p><i class="fa-sharp fa-solid fa-globe"></i>Idioma: Inglês iniciante </p>
+          <p><i class="fa-solid fa-location-dot"></i>Localização: Cuiabá, Mato Grosso - Brasil</p>
+          <p><i class="fa-solid fa-phone"></i>+55 (65) 98112-6587</p>
+          <p><i class="fa-solid fa-envelope"></i> 11joao44@gmail.com</p>
+          <p><i class="fa-sharp fa-solid fa-laptop-code"></i>Profissional: Desenvolvedor Full Stack</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    
+  </footer>
+
+  <!-- Frameworks e Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://kit.fontawesome.com/fb6a18bbb0.js" crossorigin="anonymous"></script>
+  <script src="./dist/scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+@use 'variaveis';
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 0 15px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Poppins', sans-serif;
+
+  @media (max-width: 768px) {
+    display: block;
+    text-align: center;
+    min-height: 0;
+  }
+
+  &__profile {
+    position: relative;
+    perspective: 1000px;
+    transform: scale(105%);
+    margin-right: 80px;
+
+    @media (max-width: 768px) {
+      margin-right: 0;
+      margin-top: -80px;
+      transform: scale(60%);
+    }
+
+
+    &__card {
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+
+      &--is-active {
+        transform: rotateY(-555deg);
+      }
+
+
+      &__front,
+      &__back {
+        position: absolute;
+        backface-visibility: hidden;
+        transition: all 0.6s ease-in-out;
+      }
+
+      &__back {
+        display: flex;
+        transform: rotateY(180deg);
+        position: relative;
+        width: 400px;
+        height: 550px;
+        border-radius: 25px;
+        background: variaveis.$colorGradientHome;
+        box-shadow: 0 0 15px #0071a9, 0 0 25px #0b7777, 0 0 50px #015e68;
+        transition: all 0.6s ease-in-out;
+        cursor: pointer;
+
+        &__description {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+          font-family: 'Poppins', sans-serif;
+          font-size: 1em;
+          font-weight: 200;
+          backface-visibility: hidden;
+
+          h1 {
+            font-weight: 400;
+            font-size: 1.1em;
+            padding: 5px 0;
+          }
+
+          p {
+            text-align: center;
+            height: 130px;
+            width: 75%;
+          }
+        }
+
+        &__photo {
+          background-image: url(/dist/images/photo.jpg);
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+          border: 3px solid #fff;
+          border-radius: 150px;
+          width: 120px;
+          height: 120px;
+          top: 15%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 999;
+          backface-visibility: hidden;
+        }
+      }
+    }
+
+    img {
+      width: 400px;
+      height: 550px;
+      border-radius: 25px;
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(105%);
+      }
+    }
+  }
+
+
+
+
+  &__content {
+    padding: 3vw;
+    border-radius: 15px;
+
+    @media (max-width: 768px) {
+      margin-top: 100px;
+    }
+
+    &__branding {
+      max-width: 860px;
+      width: 100%;
+
+      &__social {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+
+        @media (max-width: 768px) {
+          margin-top: 0;
+          transform: scale(50%);
+        }
+
+        a {
+          margin-right: 10px;
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            transform: scale(110%);
+          }
+        }
+
+        &__download {
+          text-decoration: none;
+          color: #fff;
+          border: 1px solid #fff;
+          font-size: 1.1em;
+          padding: 15px 25px;
+          border-radius: 10px;
+          font-weight: 700;
+          margin-left: 15px;
+          margin-bottom: 5px;
+          transition: .3s ease-in-out;
+
+          &:hover {
+            background: #fff;
+            color: #000;
+            box-shadow: 0 0 10px #7e7e7ece;
+          }
+        }
+      }
+
+      &__text-1 {
+        font-size: 2em;
+
+        @media (max-width: 768px) {
+          font-size: 1em;
+        }
+      }
+
+      &__text-2 {
+        margin: 20px 0;
+        font-weight: 400;
+        font-size: 0.7em;
+
+        @media (max-width: 768px) {
+          font-size: 0.4em;
+        }
+      }
+
+      &__text-3 {
+        font-weight: 200;
+        font-size: 0.9em;
+        color: #a9a9a9;
+
+        @media (max-width: 768px) {
+          font-size: 0.45em;
+        }
+      }
+    }
+  }
+
+}
